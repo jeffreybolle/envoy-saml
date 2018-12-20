@@ -1,0 +1,23 @@
+---
+version: '3'
+services:
+  saml-backend:
+    build: ./saml-backend
+    depends_on:
+      - idp
+  website:
+    build: ./website
+  idp:
+    build: ./idp
+    ports:
+      - 8080:8080
+  envoy:
+    build: ./envoy
+    ports:
+      - 80:10000
+    environment:
+      - loglevel=info
+    depends_on:
+      - saml-backend
+      - website
+      - idp

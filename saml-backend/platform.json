@@ -1,0 +1,59 @@
+{
+    "clientId": "platform",
+    "adminUrl": "http://localhost/SAML2/SSO/POST",
+    "surrogateAuthRequired": false,
+    "enabled": true,
+    "clientAuthenticatorType": "client-secret",
+    "redirectUris": [],
+    "webOrigins": [],
+    "notBefore": 0,
+    "bearerOnly": false,
+    "consentRequired": false,
+    "standardFlowEnabled": true,
+    "implicitFlowEnabled": false,
+    "directAccessGrantsEnabled": false,
+    "serviceAccountsEnabled": false,
+    "publicClient": false,
+    "frontchannelLogout": true,
+    "protocol": "saml",
+    "attributes": {
+        "saml.assertion.signature": "false",
+        "saml.force.post.binding": "true",
+        "saml.multivalued.roles": "false",
+        "saml.encrypt": "false",
+        "saml.server.signature": "true",
+        "saml.server.signature.keyinfo.ext": "false",
+        "exclude.session.state.from.auth.response": "false",
+        "saml.signing.certificate": "MIICnzCCAYcCBgFnzP4umDANBgkqhkiG9w0BAQsFADATMREwDwYDVQQDDAhwbGF0Zm9ybTAeFw0xODEyMjAxODU5MjlaFw0yODEyMjAxOTAxMDlaMBMxETAPBgNVBAMMCHBsYXRmb3JtMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk0kUV85VJd9egDGoxmUvBgsi8x3kyOnExvOUu51e6x2IR2E44ErAbLcQMZPzYMulRN39zaEe5lK7xnTJzKeGQyPQrV+GEit4uqYXcVM3i6abfhSNpK95zr4Mlruokf3lEijvyd9ZdJ4OUDht3SRo64upXOqj1r9KW8R/3+PBvdIIoaUmC0pyRzfPITTKT7BAr5OBjvfVlJntXSks5IM1tJ3cZNyHO3jxEygwd4dE4zpm3bARAWfSaQ5vFcbjjMTeLFg/O/LeLHkqhnMWYtfYnrf0pEaGILInlrkhvi4g87KttyEIqB0jjE4su38u9Sc5w8u9Mbdr3SZR6WfNjLFvxwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAEfwaCNKlj9C7q/+o9LiSDkVwtmbBQ79zVDcdnUhulgaap38SeSFowyupoCK9xLZPFTlvDaPsDu7iNuZQJKixXOrYe+c5GqMV85eKC0/MZ463XOZeYygj4RW3lqYzX6qoaBIymW9pdiaYr+zflklAixxpOmGnffMIc/mzJ2TVxDou47+DkLu0l9M4xFu1wA2sZ11vCWSxjOTPVMNDM43egAgcUhJ0J5zxBeSQMitED8YCRdlf3K4ipW0tpbgIrppOXCovwdTSBwlaM/9YCnU9usD8oxLP5l4kuO572/T671V5lAb5DIzLV9Nt4k8HnOS87p1DPugHs9dCHJjkPzOSD",
+        "saml.signature.algorithm": "RSA_SHA256",
+        "saml_force_name_id_format": "true",
+        "saml.client.signature": "false",
+        "tls.client.certificate.bound.access.tokens": "false",
+        "saml.authnstatement": "true",
+        "display.on.consent.screen": "false",
+        "saml.signing.private.key": "MIIEowIBAAKCAQEAk0kUV85VJd9egDGoxmUvBgsi8x3kyOnExvOUu51e6x2IR2E44ErAbLcQMZPzYMulRN39zaEe5lK7xnTJzKeGQyPQrV+GEit4uqYXcVM3i6abfhSNpK95zr4Mlruokf3lEijvyd9ZdJ4OUDht3SRo64upXOqj1r9KW8R/3+PBvdIIoaUmC0pyRzfPITTKT7BAr5OBjvfVlJntXSks5IM1tJ3cZNyHO3jxEygwd4dE4zpm3bARAWfSaQ5vFcbjjMTeLFg/O/LeLHkqhnMWYtfYnrf0pEaGILInlrkhvi4g87KttyEIqB0jjE4su38u9Sc5w8u9Mbdr3SZR6WfNjLFvxwIDAQABAoIBADnzVRe/TW1bV9lksJ1vDnN4SkYSCwSqRgxppqmzH7eupQJA1Jobj163IJ4BMo9xUROprMUNkhTZlJxfM09c0szz+JVesmfPxu7Zjvu93GsMIL4Y5CpaCLk5ucZNC+R1W34rsT1irdXeoo8ZxNBwFQAosXinsdM67MzyocW73W0L65oqLL9Wza4+o0XyWutqnB6o2B9FnIBsx3Y9/t9zAqIxDF+Vas4mLn2MMLCOcfYmSrgeVBl9pvr4ZWqN4PVd5nFceQpixKBNgcDdAYOjnUU9li/DSbOwW1JNE7jT11YNR3jOVnbHCGADNlZkyAeaWM/Gvw0Q7lt9hm68x8D2uKECgYEA94Lrm3NR4mQjJCt7npJgYBly96XAs8U16j8kXIkxIk9JcWa527eF47wGHSG+SGrWwABrvhVdPf1Qdli7kLeXaF7cbeQRq5Bx6VPWEp18cBSrJaaiUe8I93rseqaw9Uk8NgdjOSRyzwIXRzRbWWDDIT7eR56lcr2e9xPb1xZMdbkCgYEAmFY0M3iz3vZHL4LNUNolsD62bAHRuyfV0415dIyfoaZ1sMeDrmYYsTZiXbUPvzWcpiU7yKYDOnzxflGDN6NKnDsZHGOyHBUbd55c5ZV0LeWTkztCTPHDuZpgM1BcMEYBqTSyhRqS7cGYn4Ao1W/VNbS5hz96TQeBJAecYOlf0X8CgYBrNFeccyyKZFkcN4FJw5jexucXAMIgm1Co70RumDWh6Lmk1pu14R2q8CutvonOkAgIDaadJF/Ik8mgGPrUydBYso3DQz+sEdpk950HXxMg8LLYkf5IgsJdfu6iiUSoWVotBLIjc/gOVZeDjdfrNJAP/E0GtF5w/lS2K/HSjaP8cQKBgHVP5VFCAZqRI861tzEtXVq1YLwaRo4PJj6NM1wKsx/EVdu2OXUDUL6ft+6b8a15NtJH2BszpUbUUxDI6vjcuidH55WSPOYdZxKeFMIEbvytUBFQ0ET65ZQ4Cx9ZIjVWpA7O8y9HgKCxtrwV8Nw1DAcYzssVmjRZtByv88A52D03AoGBAOXv0fGFeGt0hvNgk7SMAA79qG4eYgKqe0kqJPRAcU7rvok++8INg9aX0WIb9rZYwrxMW727CAoRJYaIPfKuf9kpyWh9x+hb3qnex9tsQMONVeTN3ZetHONJYq3hAyMBEXkSkxRMKBTW5EVsmNVhlGXluG6edbActiScsoYLbGgt",
+        "saml_name_id_format": "username",
+        "saml.onetimeuse.condition": "false",
+        "saml_signature_canonicalization_method": "http://www.w3.org/2001/10/xml-exc-c14n#"
+    },
+    "authenticationFlowBindingOverrides": {},
+    "fullScopeAllowed": false,
+    "nodeReRegistrationTimeout": -1,
+    "defaultClientScopes": [
+        "web-origins",
+        "role_list",
+        "roles",
+        "profile",
+        "email"
+    ],
+    "optionalClientScopes": [
+        "address",
+        "phone",
+        "offline_access"
+    ],
+    "access": {
+        "view": true,
+        "configure": true,
+        "manage": true
+    }
+}

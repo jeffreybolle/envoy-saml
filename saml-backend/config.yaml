@@ -1,0 +1,5 @@
+---
+idp_url: http://localhost:8080/auth/realms/master/protocol/saml
+issuer: platform
+timeout: 300
+certificate:
