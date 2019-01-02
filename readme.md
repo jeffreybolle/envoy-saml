@@ -1,4 +1,4 @@
-#Envoy - SAML 2.0 Example
+# Envoy - SAML 2.0 Example
 
 This is an example that I have put together to demonstrate how to authenticate
 users using SAML 2.0 when using Envoy as an ingress proxy.
